@@ -1,0 +1,132 @@
+/* Compact nav */
+@media only screen and (max-width: 767px) {
+    ul.products li.product form.variations_form {
+        opacity: 1;
+        height: auto;
+        padding: 1.618em;
+    }
+    ul.products li.product .button {
+        display: block;
+        margin-right: 1.9em !important;
+        margin-top: .618em !important;
+    }
+    .quantity {
+        float: left;
+        margin-right: 1em;
+    }
+    table.variations {
+        max-width: 240px;
+    }
+    /* Variation label eg size */
+    .home .variations_form table.variations tr td:first-child,
+    .archive .variations_form table.variations tr td:first-child,
+    .post-type-archive-product .variations_form table.variations tr td:first-child,
+    .woocommerce-cart .variations_form table.variations tr td:first-child,
+    #main > ul > li.post-30.product.type-product.status-publish.has-post-thumbnail.first.gs_product_item_min_width.taxable.shipping-taxable.purchasable.product-type-variable.product-cat-mens-t-shirts.instock.masonry-brick > form > table > tbody > tr > td.label,
+    #main > ul > li.product.type-product.status-publish.has-post-thumbnail.gs_product_item_min_width.shipping-taxable.purchasable.product-type-variable.product-cat-mens-t-shirts.instock.masonry-brick > form > table > tbody > tr > td.label {
+        vertical-align: top;
+        padding-top: 1em;
+        padding-bottom: 0;
+        max-width: 50px;
+        padding-left: 10px;
+    }
+    .single-product .variations_form table.variations tr td:first-child {
+        vertical-align: top;
+    }
+    #main > div.related.products > ul > li > form > table > tbody > tr > td.label
+    .single-product .product > div.summary.entry-summary > form > table > tbody > tr > td.label {
+        vertical-align: top;
+        padding-top: 1em;
+    }
+    /* Variation value drop-down */
+    .home .variations_form table.variations tr td:nth-child(2),
+    .archive .variations_form table.variations tr td:nth-child(2),
+    .single-product .variations_form table.variations tr td:nth-child(2),
+    .post-type-archive-product .variations_form table.variations tr td:nth-child(2),
+    .woocommerce-cart .variations_form table.variations tr td:nth-child(2) {
+        padding-top: 2em;
+        min-width: inherit;
+    }
+    /* Jeans alteration size */
+    .home .post-658 .variations_form table.variations tr td:first-child,
+    .post-type-archive-product .post-658 .variations_form table.variations tr td:first-child,
+    .woocommerce-cart .post-658 .variations_form table.variations tr td:first-child {
+        font-size: 0.4em;
+        line-height: 1.5em;
+        padding-left: 0;
+    }
+    .home .post-658 .variations_form table.variations tr td:nth-child(2),
+    .post-type-archive-product .post-658 .variations_form table.variations tr td:nth-child(2),
+    .woocommerce-cart .post-658 .variations_form table.variations tr td:nth-child(2) {
+        padding-top: 2em;
+        /*min-width: inherit;*/
+        max-width: 110px;
+    }
+}
+
+/* Expanded nav */
+@media only screen and (min-width: 768px) {
+    ul.products li.product form.variations_form {
+        padding: 0;
+        margin: 0;
+        opacity: 0;
+        height: 0;
+        display: block;
+    }
+    ul.products li.product:hover form.variations_form {
+        opacity: 1;
+        height: auto;
+        padding: 1.618em;
+    }
+    table.variations {
+        max-width: 240px;
+    }
+    #main > ul > li.product.type-product.status-publish.has-post-thumbnail.gs_product_item_min_width.shipping-taxable.purchasable.product-type-variable.product-cat-mens-t-shirts.instock.masonry-brick > form > table > tbody > tr > td.label {
+        max-width: 30px;
+    }
+    /* Variation label eg size */
+    .home .variations_form table.variations tr td:first-child,
+    .archive .variations_form table.variations tr td:first-child,
+    .post-type-archive-product .variations_form table.variations tr td:first-child,
+    .woocommerce-cart .variations_form table.variations tr td:first-child,
+    #main > ul > li.post-30.product.type-product.status-publish.has-post-thumbnail.first.gs_product_item_min_width.taxable.shipping-taxable.purchasable.product-type-variable.product-cat-mens-t-shirts.instock.masonry-brick > form > table > tbody > tr > td.label {
+        vertical-align: top;
+        padding-top: 1em;
+        padding-bottom: 0;
+        max-width: 30px;
+        padding-left: 2px;
+    }
+    .single-product .variations_form table.variations tr td:first-child {
+        vertical-align: top;
+    }
+    #main > div.related.products > ul > li > form > table > tbody > tr > td.label
+    .single-product .product > div.summary.entry-summary > form > table > tbody > tr > td.label {
+        vertical-align: top;
+        padding-top: 1em;
+    }
+    /* Variation value drop-down */
+    .home .variations_form table.variations tr td:nth-child(2),
+    .archive .variations_form table.variations tr td:nth-child(2),
+    .single-product .variations_form table.variations tr td:nth-child(2),
+    .post-type-archive-product .variations_form table.variations tr td:nth-child(2),
+    .woocommerce-cart .variations_form table.variations tr td:nth-child(2) {
+        padding-top: 2em;
+        min-width: inherit;
+        max-width: 120px;
+    }
+    /* Jeans alteration size */
+    .home .post-658 .variations_form table.variations tr td:first-child,
+    .post-type-archive-product .post-658 .variations_form table.variations tr td:first-child,
+    .woocommerce-cart .post-658 .variations_form table.variations tr td:first-child {
+        font-size: 0.4em;
+        line-height: 1.5em;
+        padding-left: 0;
+    }
+    .home .post-658 .variations_form table.variations tr td:nth-child(2),
+    .post-type-archive-product .post-658 .variations_form table.variations tr td:nth-child(2),
+    .woocommerce-cart .post-658 .variations_form table.variations tr td:nth-child(2) {
+        padding-top: 2em;
+        /*min-width: inherit;*/
+        max-width: 110px;
+    }
+}

@@ -1,0 +1,16 @@
+/*  
+ *  Theme Name: Roadskin Theme
+ *  Theme URI: http://gnarlymedia.com.au
+ *  Version: 1.0
+ *  Description: Custom Theme based on Sentient
+ *  Author: GnarlyMedia
+ *  Author URI: http://gnarlymedia.com.au
+ *  Template: sentient
+ *
+ *  */
+
+/* Default styles */
+
+@import "../sentient/style.css";
+
+/*-------------------------------------------------------------------------------------------*/
